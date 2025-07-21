@@ -1,7 +1,10 @@
 spring:
   application:
-       name: Config-Default
+    name: Config-Default
 
+  cloud:
+    compatibility-verifier:
+      enabled: false
 
 eureka:
   client:
@@ -11,11 +14,3 @@ eureka:
     fetch-registry: true
   instance:
     prefer-ip-address: true
-
-spring:
-  cloud:
-    compatibility-verifier:
-      enabled: false
-
-     
-  
